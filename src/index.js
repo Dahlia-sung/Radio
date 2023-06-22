@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+/* import Board from './components/layout/Board';
+import Notice from './components/layout/Notice'; */
+/* import Main from './components/layout/Main'; */
+import Login from './components/layout/Login';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Notice /> */}
+    {/* <Main /> */}
+    <Login />
   </React.StrictMode>
 );
 

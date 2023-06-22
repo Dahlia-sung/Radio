@@ -1,0 +1,264 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Hallym';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Regular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Regular.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Regular.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Regular.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hallym';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Medium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Medium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Medium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Medium.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hallym';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Bold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Bold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Bold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Bold.ttf') format("truetype");
+    font-display: swap;
+}
+
+* {
+    font-family: "Hallym";
+    margin: auto 0;
+    padding: 0;
+}
+
+
+.logo {
+    display: flex !important;
+    align-items: center !important;
+    height: 70px !important;
+}
+
+.menu {
+    font-size: 14pt;
+}
+
+
+.line {
+    /* border: 1px solid green; */
+    margin: auto;
+    margin-top: 50px;
+    width: 85%;
+    text-align: center;
+
+}
+
+
+.line1 {
+    padding-top: 50px;
+    display: none;
+}
+
+
+.top_hr {
+    border: 1px solid #F64A00;
+    margin: auto;
+    width: 80%;
+    top: 30px;
+}
+
+
+/* 컨텐츠 부분 시작 */
+.loginpart {
+    border: 1px solid blue;
+    float: left;
+    margin-left: 100px;
+    margin-top: 120px;
+
+}
+
+.logintextpart {
+    display: inline-block;
+    font-size: 28pt;
+    font-weight: 500;
+    letter-spacing: -4.5px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.idpart {
+    border-top: 2px solid #F64A00;
+    padding-top: 15px;
+}
+
+input::placeholder {
+    color: rgb(77, 77, 77);
+    text-align: center;
+}
+
+input:focus {
+    border-bottom: 2px solid #F64A00;
+    /* box-shadow: 0 0 0 .2rem rgba(122, 122, 122, 0.45); */
+    outline: none;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #868686;
+    font-size: 22pt;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.pwpart {
+    padding: 15px 0px 15px 0px;
+}
+
+.btnlogin {
+    font-size: 18pt;
+    border: 2px solid #868686;
+    border-radius: 20px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.side {
+    border-left: 2px solid #F64A00;
+    /* margin-bottom: 150px; */
+}
+
+
+/* 여기는 푸터 */
+.hr2 {
+    border: 1px solid #F64A00;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.footer {
+    float: right;
+    margin-right: 160px;
+    font-size: 20pt;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #9D9D9D;
+}
+
+
+/* 미디어쿼리 시작 */
+
+@media (max-width: 1100px) {
+
+    .diagonal {
+        height: 800px !important;
+        margin-left: 350px !important;
+    }
+
+    .textpart {
+        margin-top: 330px !important;
+        font-size: 30pt !important;
+    }
+
+    .circle {
+        width: 100px;
+        position: absolute;
+        margin-top: 380px !important;
+        margin-left: -380px;
+        /* border: 1px solid violet; */
+    }
+
+    .side {
+        border-left: 0px solid #F64A00 !important;
+        /* margin-bottom: 150px; */
+    }
+
+    .line1 {
+        padding-top: 50px;
+        display: block !important;
+    }
+
+    .top_hr {
+        width: 100% !important;
+    }
+
+    .hr2 {
+        width: 100% !important;
+    }
+
+    .footer {
+        margin-right: 10px !important;
+    }
+
+
+}
+
+
+
+@media (max-width: 757.98px) {
+
+    .logo img {
+        width: 380px !important;
+    }
+
+    .diagonal {
+        height: 430px !important;
+        margin-left: 190px !important;
+    }
+
+    .textpart {
+        font-size: 20pt !important;
+        margin-top: 200px !important;
+        letter-spacing: -3.8px !important;
+    }
+
+    .circle {
+        width: 70px !important;
+        position: absolute;
+        margin-top: 150px !important;
+        margin-left: -170px !important;
+    }
+
+    .time {
+        font-size: 20pt;
+        margin-top: 100px !important;
+        margin-left: 10px;
+        position: absolute;
+        display: inline-block;
+
+    }
+
+    .mainimg {
+        width: 90%;
+        display: inline-block;
+        margin-top: 150px !important;
+        margin-bottom: 30px;
+    }
+
+    #Box {
+        width: 360px !important;
+        height: 546px !important;
+    }
+
+    .navbar-nav {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .footer {
+        font-size: 15pt !important;
+        margin-right: 20px !important;
+    }
+}

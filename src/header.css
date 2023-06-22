@@ -1,0 +1,50 @@
+html{
+    overflow-x: hidden;
+}
+.container{
+    padding: 5px 10px 10px 10px !important;
+}
+.navbar{
+    padding: 0 !important;
+}
+.shBtn{
+    width: 100px;
+}
+.header{
+    border-bottom: 1px solid lightgray;
+}
+.loginForm{
+    margin-right: 10px;
+}
+.py-5{
+    padding-top: 0 !important;
+}
+.logo{
+    display: flex !important;
+    align-items: center !important;
+    height: 70px !important;
+}
+.logo img{
+    width: 300px;
+}
+.iconGroup{
+    display: flex;
+    justify-content: space-between;
+}
+.iconGroup img{
+    width: 20px;
+    margin-left: 10px;
+}
+form{
+    padding: 10px 0;
+}
+@media (max-width: 991.98px){
+    .logo img{
+        width: 200px;
+    }
+}
+@media (min-width: 1200px){
+    .container{
+        max-width: 1400px !important;
+    }
+}

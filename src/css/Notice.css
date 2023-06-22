@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Hallym';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Regular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Regular.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Regular.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Regular.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hallym';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Medium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Medium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Medium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Medium.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hallym';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Bold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Bold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Bold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/hallym/Hallym-Bold.ttf') format("truetype");
+    font-display: swap;
+}
+
+.bg-light{
+    background-color: #ffffff !important;
+    margin-top: 30px;
+}
+
+.top_hr{
+    border: 1px solid #F64A00;
+    margin: auto;
+    width: 80%;
+    top: 30px;
+}
+
+/* 위는 header */
+
+.left_body{
+    border-right: 1px solid  #F64A00;
+    width: 870px;
+}
+
+.headset{
+    margin: auto;
+    margin-top: 40px;
+    width: 550px;
+}
+
+.headset_img{
+    width: 550px;
+}
+
+.headset_text1{
+    width: 550px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.headset_text2{
+    width: 550px;
+    text-align: center;
+}
+
+.tor{
+    margin: auto;
+}
+
+.tor_img{
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+
+.right_body{
+    margin: auto;
+}
+
+.orange{
+    margin: auto;
+    margin-top: 20px;
+    top: 500px;
+    width: 380px;
+}
+
+.orange_img{
+    height: 500px;
+}
+
+.orange_text1{
+    width: 380px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+}
+.orange_text2{
+    width: 380px;
+    text-align: left;
+}
+
+
+ /* 밑은 footer */
+.hr2 {
+    border: 1px solid #F64A00;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.footer {
+    float: right;
+    margin-right: 80px;
+    font-size: 20pt;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #9D9D9D;
+}
+
+/* 미디어 쿼리 시작 */
+
+@media (max-width: 1399px) {
+    .orange_img{
+        margin-top: 50px;
+    }
+    .top_hr{
+        width: 100%;
+    }
+    .hr2{
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 990px) {
+    .left_body{
+        border: none;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar-nav{
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+  
+}
+
