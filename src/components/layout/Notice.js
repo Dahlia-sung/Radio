@@ -34,7 +34,6 @@ function Notice() {
                             <Col xxl={4}>
                                 <div className='headset_text1'>Turn (ON) The Radio의 이번주 소식</div>
                                 <div className='headset_text2'>6월 3째주 소식</div>
-
                             </Col>
                         </div>
                         <div className='tor'>

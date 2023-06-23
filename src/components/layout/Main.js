@@ -1,12 +1,13 @@
 import React from 'react';
+import '../../css/hs.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Time from './Time';
+import Header from './Header';
 import Footer from './Footer';
-import '../../css/hs.css'
 
 
 function Main() {

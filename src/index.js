@@ -4,17 +4,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 /* import Board from './components/layout/Board';
 import Notice from './components/layout/Notice'; */
-/* import Main from './components/layout/Main'; */
-import Login from './components/layout/Login';
+import Main from './components/layout/Main';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    {/* <App />
     {/* <Notice /> */}
-    {/* <Main /> */}
-    <Login />
+    <Main />
   </React.StrictMode>
 );
 
